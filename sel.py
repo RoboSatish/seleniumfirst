@@ -16,7 +16,7 @@ driver.find_element(By.XPATH,'//*[@id="container"]/div/div[1]/div/div/div/div/di
 
 d1 = driver.find_element(By.XPATH,'//*[@id="dropdown-class-example"]/option[4]').click()
 d1 = driver.find_element(By.CLASS_NAME,'blinkingText')
-# print(d1.get_attribute('href'))
+print(d1.get_attribute('href'))
 
 # d2 = Select(d1)
 # d2.select_by_index(1)
