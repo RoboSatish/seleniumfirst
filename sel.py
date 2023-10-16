@@ -13,7 +13,7 @@ driver.get('https://www.flipkart.com/')
 time.sleep(5)
 driver.find_element(By.XPATH,'/html/body/div[3]/div/span').click()
 driver.find_element(By.XPATH,'//*[@id="container"]/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div[1]/header/div[1]/div[2]/form/div/div/input').send_keys("One plus mobile ")
-
+print("Updated Code")
 d1 = driver.find_element(By.XPATH,'//*[@id="dropdown-class-example"]/option[4]').click()
 d1 = driver.find_element(By.CLASS_NAME,'bl inkingText')
 print(d1.get_attribute('href'))
